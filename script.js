@@ -3,12 +3,12 @@ const audioElement = document.getElementById('audio');
 const bubble = document.getElementById('speech');
 
 // Toggle button on/off
-function toggleButton(){
+function toggleButton () {
     button.disabled = !button.disabled;
 }
 
 // Render joke in speech bubble
-function renderJoke(joke) {
+function renderJoke (joke) {
     bubble.textContent = joke;
 }
 
@@ -45,4 +45,4 @@ async function getJokes(){
 }
 // On load
 button.addEventListener('click', getJokes);
-audioElement.addEventListener('ended', toggleButton);
+audioElement.addEventListener('ended', toggleButton); // Toggle button on when audio FINISHED playing
