@@ -1,12 +1,6 @@
 html{ box-sizing: border-box;}
-
 body{margin: 0; background: white;}
-
-h3 {
-    position: fixed;
-    top: 5px; left: 5px;
-}
-
+h3 { position: fixed; top: 5px; left: 5px;}
 .container{
     height: 100vh;
     display: flex;
@@ -18,7 +12,6 @@ h3 {
     background-size: contain;
 }
 #favicon:hover {transform: scale(2);}
-
 button{
     cursor: pointer;
     outline: none;
@@ -32,11 +25,9 @@ button{
     border-radius: 5px;
     box-shadow: 2px 2px 20px 10px rgba(0,0,0,0.2);
 }
-
 button:hover{ transform: scaleX(1.2);}
 button:active{ transform: scale(0.90);}
 button:disabled{ cursor: default; filter: brightness(30%);}
-
 /* speech bubble */
 .speech-bubble {
     box-sizing: border-box;
@@ -48,8 +39,7 @@ button:disabled{ cursor: default; filter: brightness(30%);}
     border-radius: 0.4em;
     max-width: 300px;
 }
-  
- .speech-bubble:after {
+.speech-bubble:after {
     content: '';
     position: absolute;
     left: 0;
