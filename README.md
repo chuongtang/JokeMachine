@@ -1,7 +1,7 @@
-## Joke telling machine
+## Joke Teller 😆
 A Joke telling machine built on JS
 
-When user click ***Crack a new joke*** the machine gets random jokes from *third party API* and converts them to speech using *voiceRSS **text-to-speech** API*. Built with JavaScript (ES6) 
+When user click ***Crack a new joke*** the machine gets random jokes 🃏 from *third party API* and converts them to speech using *voiceRSS **text-to-speech** API*. Built with JavaScript (ES6) 
 
 **Credit to great resources that I used**: 🌼
 1. Robot animation is from Sphero Ball.  🤖
